@@ -1,0 +1,440 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color: black;
+    background-image: url("back.jpg");
+    background-size: 100%;
+    background-blend-mode:screen;
+}
+.topbar1 ul
+{
+    float: left;
+}
+.topbar1 ul li
+{
+    display: inline;
+    margin-left: 25px;
+
+
+}
+.topbar1 ul li a
+{
+    opacity: 0.5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 2px 4px;
+    position: relative;
+    transition: 0.5s;
+}
+.topbar1 ul li a:hover
+{
+    opacity: 1;
+    margin-left: 5px;
+    transition: 0.5s;
+}
+
+.topbar2 ul
+{
+    float: right;
+    margin-right: 30px;
+}
+.topbar2 ul li
+{
+    
+    display: inline;
+    margin-right: 25px;
+
+
+}
+.topbar2 ul li a
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 2px 4px;
+    opacity: .5;
+    transition: .5s;
+}
+
+.topbar2 ul li a:hover
+{
+    opacity: 1;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+
+
+.centre
+{
+    text-shadow: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: center;
+}
+.blu a
+{
+    text-decoration: none;
+    color: white;
+    padding: 2px 4px;
+    opacity: .5;
+    transition: .5s;
+
+}
+.blu a:hover
+{
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    font-size: 30px;
+    transition: 0.5s;
+}
+.centre h1
+{
+    cursor:default;
+    text-align: center;
+    transition: .5s;
+}
+.centre h1:hover
+{
+    font-size: 40px;
+    transition: .5s;
+}
+
+.centre h2
+{
+    border: 2px;
+    border-color: aqua;
+}
+.centre img
+{
+    height: 120px;
+    width: 120px;
+    transition: .5s;
+}
+.centre img:hover
+{
+    
+    height: 140px;
+    width: 140px;
+    transition: .5s;
+
+}
+.pg2
+{
+    background-color: black;
+    color: white;
+    text-align: justify;
+    margin-left: 50px;
+    height: 400px;
+    width: 900px;
+    transition: .5s;
+    border-radius: 30px;
+}
+.pg2:hover
+{
+    backdrop-filter: blur(12px);
+    margin-left: 70px;
+    transition: .5s;
+}
+.pg2 h2
+{
+    margin-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pg2 p
+{
+    text-align: justify;
+    height: 230px;
+    width: 400px;
+    margin-left: 100px;
+    text-size-adjust: 200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pg2 img
+{
+    float: right;
+    height: 350px;
+    width: auto;
+    margin-right: 20px;
+    margin-top: 5px;
+    border-image-outset: 2px;
+    border-color: aqua;
+    border-radius: 20px;
+}
+.sp
+{
+
+    background-color: black;
+    color: white;
+    text-align: justify;
+    margin-left: 300px;
+    height: 550px;
+    width: 1000px;
+    border-radius: 30px;
+    transition: .5s;
+}
+.sp:hover
+{
+    margin-left: 280px;
+    transition: .5s;
+}
+.sp img
+{
+    background-color: aquamarine;
+    height: 250px;
+    width: 450px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+
+}
+.sp h2
+{
+    float: right;
+    margin-right: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sp p
+{
+    float: right;
+    height: 230px;
+    width: 300px;
+    text-align: justify;
+    margin-right: 70px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+footer{
+    background: rgb(32, 32, 32);
+    height: auto;
+    width: 100vw;
+    font-family: "open sans";
+    color: aliceblue;
+}
+.ft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ft h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.ss{
+    display: inline;
+    display: flex;
+    align-items: center;
+    margin: 1rem 3rem;
+
+}
+.ss li{
+    margin: 0 20px;
+}
+.ss li img 
+{
+    height: 30px;
+    width: 30px;
+    transition: .5s;
+}
+.ss li img:hover
+{
+    transition: .5s;
+    height: 35px;
+    width: 35px;
+}
+.ss a{
+    text-decoration: none;
+    color: #fff;
+}
+.ftb{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.menu 
+{
+    margin-left: 300px;
+    border-style: dotted;
+    border-color: white;
+    backdrop-filter: blur(10px);
+    height: 1050px;
+    width: 700px;
+    color: #fff;
+    border-radius: 50px;
+}
+.menu h1
+{
+    text-align: center;
+}
+.menu ol li.veg
+{
+    margin-left: 20px;
+}
+.menu ol li a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu ol img
+{
+    float: right;
+    height: 250px;
+    width: 350px;
+    margin-right: 20px;
+}
+.go
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 2px 4px;
+    transition: .5s;
+}
+.go:hover
+{
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.nonveg img
+{
+    border-radius: 20px;
+    width: 100px;
+margin-bottom: 40px;
+}
+.nonveg
+{
+    height: 650px;
+}
+.vegg
+{
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.vegg legend
+{
+    margin-left: 50px;
+}
+
+.tot
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.frame
+{
+    border-radius: 20px;
+    transition: .5s;
+}
+.frame:hover
+{
+    height: 410px;
+    width: 310px;
+    transition: .5s;
+}
+.tot .map
+{
+    float: left;
+    border-radius: 20px;
+    margin-top: 100px;
+    color: #fff;
+    backdrop-filter: blur(12px);
+    border-style:double;
+    height: 600px;
+    width: 380px ;
+    padding-top: 10px;
+    padding-right: 6px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    transition: .5s;
+}
+.tot h4
+{
+    text-align:center;
+    margin-right: 70px;
+    font-size: 200%;
+    
+}
+.tot .get
+{
+    margin-left: 20px;
+    float: right;
+    margin-top: 100px;
+    border-radius: 20px;
+    color: #fff;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    backdrop-filter: blur(12px);
+    border-style:double;
+    height: 600px;
+    width: 380px ;
+}
+.get input
+{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+.get #btn
+{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: 100px;
+    height: 30px;
+    border: none;
+    background-color:teal;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .5s;
+}
+.get #btn:hover
+{
+    zoom: 105px;
+}
+.get #btn:checked
+{
+    background-color: darkcyan;
+    transition: .5s;
+}
+.get textarea
+{
+    border-radius: 5px;
+    width: 300px;
+}
+.sent
+{
+    margin-left: 15%;
+    height: 500px;
+    width: 70%;
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    border-style: double;
+    border-color: #fff;
+    margin-top: px;
+    margin-bottom: 200px;
+}
+.sent h1
+{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.sent img
+{
+    height: 300px;
+    width: 300px;
+    padding-left: 300px;
+    padding-top: 50px;
+}

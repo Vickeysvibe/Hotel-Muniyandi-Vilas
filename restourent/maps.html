@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle>restourant</tittle>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <div class="topbar1">
+            <ul>
+                <li><a href="restorent.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#id2">Recipies</a></li>
+                <li><a href="#id3">Contact us</a></li>
+            </ul>
+            </div>
+            <div class="topbar2">
+            <ul>
+                <li><a href="#"><span>Bookings</span></a></li>
+                <li><a href="maps.html" style="opacity: 1;">Location</a></li>
+
+            </ul>
+        </div>
+    </head>
+    <body>
+        <div class="tot">
+        <div class="map">
+            <h4>Directions</h4>
+            <iframe class="frame" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1895.9840199883329!2d79.5787072!3d11.9193144!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5358344636216f%3A0x41d5316ce84c4901!2sHotel%20Muniyandi%20Vilas!5e1!3m2!1sen!2sin!4v1677840133856!5m2!1sen!2sin"
+             height="400px" width="300px" frameborder="0"></iframe>
+        </div>
+        <div class="get">
+            <h4>Get in touch</h4>
+            <H3>enter your name : </H3>
+            <input type="text" id="txt">
+            <h3>enter yor e=mail : </h3>
+            <input type="text" id="txt" >
+            <h3>enter your maessage : </h3>
+            <textarea rows="5" cols="20" id="txt"></textarea><br><br><br>
+            <button id="btn"  onclick="sum()">send</button>
+            
+
+        </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+
+
+
+        <script>
+            function sum(){
+            if(document.getElementById("txt").value=="")
+            {
+                alert("inputs cannot be empty");
+            }
+            else
+            {
+                open("sent.html");
+            }
+        }
+
+        </script>
+        <footer id="id3">
+            <div class="ft">
+                <h3>muniyandi vilas</h3>
+                <p>Nalla vaanga Full-ah ponga</p>
+                <p>No 12, Dubai kurukku sandhu, Dubai main road, Dubai..</p>
+                <center>
+                <ul type="none" class="ss">
+                    <li><a herf="#"><img src="fb1-removebg-preview.png"></a></li>
+                    <li><a href="#"><img src="image.png"></a></li>
+                    <li><a href="#"><img src="wa3.png"></a></li>
+                    <li><a herf="#"><img src="githun2.png"></a></li>
+                </ul>
+                </center>
+            </div>
+            <div class="ftb">
+                <p>Made with love by Vickey</p>
+            </div>
+        </footer>
+    </body>
